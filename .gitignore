@@ -1,0 +1,16 @@
+# Banco SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos CSV
+*.csv
+
+# VS Code (opcional)
+.vscode/
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
