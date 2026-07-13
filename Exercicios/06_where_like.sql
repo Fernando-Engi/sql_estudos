@@ -1,9 +1,7 @@
---selecione produtos que contém espada na descrição
+--Lista de produtos que terminam com Lover
 
 SELECT *
 
 FROM produtos
 
-WHERE DescDescricaoProduto LIKE '%espada%'
-
-
+WHERE DescNomeProduto LIKE '%Lover'

@@ -1,15 +1,10 @@
---selecione todos os clientes com email cadastrado
+--Lista de transações com apenas 1 ponto
 
-SELECT * 
+SELECT *
 
-FROM clientes
+FROM transacoes
 
-WHERE flemail = '1'
-
-
+WHERE qtdePontos = 1
 
 
-
-
-
-
+--CERTO

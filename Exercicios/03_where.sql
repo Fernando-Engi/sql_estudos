@@ -1,7 +1,7 @@
---selecione todos os clientes com mais de 500 pontos
+--Lista de clientes com 0 pontos
 
 SELECT *
 
 FROM clientes
 
-WHERE QtdePontos > 500;
+WHERE qtdePontos = 0
